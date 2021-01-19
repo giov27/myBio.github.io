@@ -62,7 +62,7 @@
 /* Experience style */
 .experience{
     background-color: #262737;
-    padding-top: 75px ;
+    padding: 75px 0 75px 0 ;
 }
 
 .history{
@@ -102,4 +102,13 @@
     font-size: 12pt;
     font-weight: 450;
 }
+
 /* End of experience style */
+
+/* Footer */
+.footer{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background-color: #363530 ;
+    color: #E4E3B6;
+}
