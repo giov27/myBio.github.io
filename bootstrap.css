@@ -2941,12 +2941,12 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #E4E3B6;
+  background-color: #8E8D11;
+  border-color: #8E8D12;
 }
 .btn-secondary:hover {
-  color: #fff;
+  color: #E4E3B6;
   background-color: #5c636a;
   border-color: #565e64;
 }
