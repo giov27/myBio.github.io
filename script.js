@@ -9,7 +9,7 @@ const listGroup = document.getElementById('listGroup')
 
 //make button that response onclik at the header
 buttonKlik.onclick = () => {
-    ayoBerteman.innerHTML = 'Ayo Berteman!';
+    ayoBerteman.innerHTML = "Let's be friend!";
     buttonKlik.disabled = true;
 }
 
@@ -38,3 +38,11 @@ listGroup.onmouseover = () => {
 listGroup.onmouseout = () => {
     listGroup.style.color = "#E4E3B6";
 }
+
+$(function () {
+    var includes = $('[data-include]')
+    $.each(includes, function () {
+        var file = 'views/' + $(this).data('include') + '.html'
+        $(this).load(file)
+    })
+})
